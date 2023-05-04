@@ -5,7 +5,8 @@ project(app_exception
 	DESCRIPTION "C++ library with functions for working with config applications"
 	LANGUAGES CXX)
 
-set(public_headers "*.h")
-set(sources "*.cpp")
+file(GLOB
+	public_headers "*.h"
+	sources "*.cpp")
 
 add_library(${PROJECT_NAME}_lib ${sources} ${public_headers})
