@@ -1,9 +1,9 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.10)
 
-project(app_exception) 
-#	VERSION 1.0.0
-#	DESCRIPTION "C++ library with functions for working with config applications"
-#	LANGUAGES CXX)
+project(app_exception
+	VERSION 1.0.0
+	DESCRIPTION "C++ library with functions for working with config applications"
+	LANGUAGES CXX)
 
 file(GLOB
 	public_headers "*.h"
